@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62660226-9596-C653-C8FA-5D6825A1CF3C" name="RESERVATIONS">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:24:08 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RESERVATIONSID" id="44967086-A53B-07AC-3D56-C1914BC072B5">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:24:21 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERID " id="5DA9B819-87FF-9C96-3E64-417E74DC8DC4">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:24:39 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROGRAMID" id="3902FE11-7293-9FA1-B1FB-2D0889BFBAFB">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:25:12 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRAINERID" id="9AD2CFE9-A7E5-57B3-7DB0-A1952B6882D3">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:28:47 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_and_Time_of_Reservation" id="B45F2D81-2F00-5D37-299E-A24EF76ED368">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:29:03 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVATION_STATUS" id="89A7894C-84F7-F076-5E4A-2974B6A0921E">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:29:51 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERID" id="3EFAEA7A-353D-71EA-E126-9CE55291BFFE">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:42:14 UTC</createdTime>
+<generatorID>342E12FE-799B-88EE-C115-0C8E7F4A8F9D</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<referedAttribute>9ACE9DA3-1A94-4972-B902-40838E8A759C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROGRAMID1" id="B9546182-D728-360C-54A2-CEE64FC3A206">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:48:37 UTC</createdTime>
+<generatorID>FCD2A870-A249-F45C-733D-109B2E51D190</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<referedAttribute>BE4AA81A-6D2F-3EDD-B145-3F0F3E490E79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRAINERID1" id="4322B2EE-401E-74ED-7A99-4341E357CBA9">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:48:56 UTC</createdTime>
+<generatorID>E5FAB9F9-8963-8C60-83E5-FC8CB716F905</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<referedAttribute>FF8104F3-2068-72A1-CCE2-55106AE72FC0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="724D06F1-AB76-1A36-FA32-86F5A588942A" name="RESERVATIONS PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:24:34 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44967086-A53B-07AC-3D56-C1914BC072B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

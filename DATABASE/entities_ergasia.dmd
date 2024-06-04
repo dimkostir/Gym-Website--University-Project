@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="entities_ergasia" id="B81DE5F7-F8E0-DE0A-95B8-DC49334DA4CD" version="3.5">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:05:30 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B81DE5F7-F8E0-DE0A-95B8-DC49334DA4CD</designId>
+</OSDM_Design>

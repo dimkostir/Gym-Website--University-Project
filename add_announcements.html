@@ -1,0 +1,28 @@
+<!--φόρμα προσθήκης μιας νέας ανακοίνωσης από τον διαχειριστή-->
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Announcement</title>
+    <link rel="stylesheet" type="text/css" href="CSS/add_announcement-style.css">
+    <nav>
+        <a href="homepage.html">Αρχική</a> 
+    </nav>
+</head>
+<body>
+
+<form id="add-announcements" action="add_announcement.php" method="post">
+    <h2>Προσθήκη Ανακοίνωσης</h2>
+
+    <label for="title">Τίτλος:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="content">Περιεχόμενο:</label>
+    <textarea id="content" name="content" rows="4" required></textarea>
+
+    <input type="submit" value="Προσθήκη Ανακοίνωσης">
+</form>
+
+</body>
+</html>

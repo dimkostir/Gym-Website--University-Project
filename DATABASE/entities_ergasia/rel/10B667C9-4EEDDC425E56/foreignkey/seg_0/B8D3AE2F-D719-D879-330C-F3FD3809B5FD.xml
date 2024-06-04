@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8D3AE2F-D719-D879-330C-F3FD3809B5FD" containerWithKeyObject="59728674-8D3C-2B49-6893-7BF3FEB3D6AF" localFKIndex="0447A970-363A-6D4F-0C03-12B25BDDB4E1" name="RESERVATIONS_TRAINERS_FK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>E5FAB9F9-8963-8C60-83E5-FC8CB716F905</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<referredTableLongName>TRAINERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E244A005-33BF-FCFD-E2D7-0058B471F69D</referredTableID>
+<keyObject>EF4675BC-FFE3-DFC6-A0E8-8F873589A85C</keyObject>
+<referredKeyID>EF4675BC-FFE3-DFC6-A0E8-8F873589A85C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRAINERID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

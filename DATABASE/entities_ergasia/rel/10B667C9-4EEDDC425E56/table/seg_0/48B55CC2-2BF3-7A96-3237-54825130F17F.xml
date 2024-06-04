@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48B55CC2-2BF3-7A96-3237-54825130F17F" name="USERS">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>5D770D27-96BC-E0C7-3F9C-D843FF916E44</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="D536AE81-6275-54B6-F428-8B0678975C2D">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>9ACE9DA3-1A94-4972-B902-40838E8A759C</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="EF484B68-3084-1AE1-E2E3-0E0DFA3B1A94">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>5102BEE3-3474-AEA9-5827-4853506FA9FA</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="029F7782-BCA8-9FD7-8B66-1D6F96D7D478">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>78A8AA84-A22D-2927-ADD6-C7B0FBE714F4</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="BC308D57-2A80-2A69-29BF-12700BF4FCDB">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>D67F6925-44A7-4213-4881-36126C8B2B37</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="FF807664-E104-B2B0-0DE9-9B5335137AF5">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>0D610CD6-A823-E2D6-C4D0-51C11D25467D</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="F8BE1289-7CAD-84FD-6DD7-A367193346EA">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>F54E6C50-57C8-6133-D148-95C5FB053DD7</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="8FDDB521-2061-D018-3486-6ABD06D7DDBF">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>04E7311A-B42B-3006-5DD0-A2B449FC8626</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="4DA39929-EDBC-55F2-B329-9744F54EFE14">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>8D0C0A2A-5793-C974-2ECE-1A00FD5270D3</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="3E846785-16A1-A78F-49B8-9CA8C1133DFB">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>793BB4FA-81A2-C3E1-035A-5111BBEE37FB</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="FCDF6FB6-879B-CB30-FB66-76EA4F4CBD84">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>F1060E6E-5F9D-BF0C-D1FC-2849AF3FDE3C</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="program" id="B81AD978-41AB-C62D-E4F9-3D0CB05094CC">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>16F95D6D-1C53-1CF2-8B29-2442E97DB28B</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="program_date" id="848423A9-0E39-EAEE-A062-97DD51DB2658">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>0269BEFE-C8E0-DE2C-61AB-F151E6E65923</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDC92E35-A20C-BC58-D275-49B2E1C60335" name="USERS_PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>DF3D729C-E85B-57A5-B675-64FDCFF8E3A0</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D536AE81-6275-54B6-F428-8B0678975C2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

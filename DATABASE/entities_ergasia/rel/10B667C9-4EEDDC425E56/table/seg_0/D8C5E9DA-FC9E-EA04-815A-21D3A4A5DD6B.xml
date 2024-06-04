@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8C5E9DA-FC9E-EA04-815A-21D3A4A5DD6B" name="Announcements">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>849D8802-DC6A-F3D0-8A81-72F7C02F3679</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="A06D3018-C85B-CAE1-3EC6-7FA02BC9AD57">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>2DDFFADC-910D-D15A-9954-6676CA8C80D8</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="32A44A01-AD11-0F4B-C845-615F86E643D8">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>928D5728-4391-B4EE-260A-F401B9C3844F</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERS_USERID" id="2C5007E6-DFC0-4BAD-A05A-1A627F022EA0">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>9F63E6F8-380D-7648-AA56-4EEBD1544D63</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AD35F40-8121-305E-6117-BDDEF68153F5" referredColumn="D536AE81-6275-54B6-F428-8B0678975C2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30D7175C-0BAA-9DE3-852D-A94365D8EB89" name="Announcements_PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>A013D357-E67E-BEFA-0E76-71A27CDA95B2</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A06D3018-C85B-CAE1-3EC6-7FA02BC9AD57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A5D1931-17CE-7B6B-AAD8-3EE9D34B3F8D" name="Announcements_USERS_FK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>EA51DD1D-87BB-8703-ECDA-4FD8C117A4E7</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C5007E6-DFC0-4BAD-A05A-1A627F022EA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

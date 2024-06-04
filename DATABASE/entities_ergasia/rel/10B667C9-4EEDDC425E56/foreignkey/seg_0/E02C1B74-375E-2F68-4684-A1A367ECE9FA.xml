@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E02C1B74-375E-2F68-4684-A1A367ECE9FA" containerWithKeyObject="59728674-8D3C-2B49-6893-7BF3FEB3D6AF" localFKIndex="CEDEEF7F-097A-0015-51A3-18D5DD9E8A0F" name="RESERVATIONS_GYM_PROGRAMS_FK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>FCD2A870-A249-F45C-733D-109B2E51D190</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<referredTableLongName>GYM_PROGRAMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ADFE7BEC-AF3C-2303-1303-A6417666F569</referredTableID>
+<keyObject>36BE404A-8A35-E947-6EF1-18946F29D3B1</keyObject>
+<referredKeyID>36BE404A-8A35-E947-6EF1-18946F29D3B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROGRAMID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,30 @@
+<!--εδώ ο χρήστης πραγματοποιεί κράτηση για ένα πρόγραμμα για μια συγκεκριμένη ημερομηνία και ώρα -->
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/reservation-style.css">
+  <title>Κράτηση Ραντεβού</title>
+</head>
+<body>
+  <form action="process_reservation.php" method="post">
+
+    <label for="username">Όνομα Χρήστη:</label>
+    <input type="text" name="username" required>
+
+
+    <label for="program">Πρόγραμμα:</label>
+    <select name="program" required>
+      <option value="individual">Ατομικό</option>
+      <option value="group">Ομαδικό</option>
+    </select>
+
+    <label for="date">Ημερομηνία και Ώρα:</label>
+    <input type="datetime-local" name="date" required>
+  
+    <input type="submit" value="Κράτηση Ραντεβού">
+
+  </form>
+</body>
+</html>

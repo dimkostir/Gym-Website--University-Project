@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E244A005-33BF-FCFD-E2D7-0058B471F69D" name="TRAINERS">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>AC677007-8193-22B2-BCA1-BD82BD2CB289</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRAINERID" id="6CAF1D22-C90B-8A9E-1EA7-3903C8D6C221">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>FF8104F3-2068-72A1-CCE2-55106AE72FC0</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TR_FIRST_NAME" id="438CEFEE-0BC9-0B94-E4F9-17C95636AA3F">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>02470E54-6714-C289-9668-A3B9F457E05A</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TR_LAST_NAME" id="9FD35A00-F635-4FA9-6B0B-20D4502B6893">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>855B5176-DB54-77BB-1A46-2EEAE08E5172</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIALITY" id="CB15121E-9A15-A62A-0463-A6017DED6BA9">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>4BDDB425-2320-042B-D4A3-A0B5DA3C98D0</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORKING_HOURS" id="7EBE3825-672A-80EF-4F4D-455FC85AD661">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>1E01D3C2-19EF-65E0-3ADD-FE0F95AC6421</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF4675BC-FFE3-DFC6-A0E8-8F873589A85C" name="TRAINERS_PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>12BE0230-D9A2-537B-BAAE-42800E2FEEA4</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CAF1D22-C90B-8A9E-1EA7-3903C8D6C221"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

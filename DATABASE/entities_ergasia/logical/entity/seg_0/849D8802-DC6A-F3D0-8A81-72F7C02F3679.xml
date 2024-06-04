@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="849D8802-DC6A-F3D0-8A81-72F7C02F3679" name="Announcements">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-12 12:45:06 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="2DDFFADC-910D-D15A-9954-6676CA8C80D8">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-12 12:45:18 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="content" id="928D5728-4391-B4EE-260A-F401B9C3844F">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-12 12:45:39 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERID" id="9F63E6F8-380D-7648-AA56-4EEBD1544D63">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-12 12:46:10 UTC</createdTime>
+<generatorID>EA51DD1D-87BB-8703-ECDA-4FD8C117A4E7</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<referedAttribute>9ACE9DA3-1A94-4972-B902-40838E8A759C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A013D357-E67E-BEFA-0E76-71A27CDA95B2" name="Announcements PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-13 23:00:38 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DDFFADC-910D-D15A-9954-6676CA8C80D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

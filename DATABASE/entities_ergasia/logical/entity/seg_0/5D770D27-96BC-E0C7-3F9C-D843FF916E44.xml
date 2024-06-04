@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D770D27-96BC-E0C7-3F9C-D843FF916E44" name="USERS">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:07:09 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="USERID" id="9ACE9DA3-1A94-4972-B902-40838E8A759C">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:07:33 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRSTNAME" id="5102BEE3-3474-AEA9-5827-4853506FA9FA">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:08:38 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LASTNAME" id="78A8AA84-A22D-2927-ADD6-C7B0FBE714F4">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:09:15 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY" id="D67F6925-44A7-4213-4881-36126C8B2B37">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:10:32 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="0D610CD6-A823-E2D6-C4D0-51C11D25467D">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:11:46 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS" id="F54E6C50-57C8-6133-D148-95C5FB053DD7">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:12:06 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="04E7311A-B42B-3006-5DD0-A2B449FC8626">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:12:24 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USERNAME" id="8D0C0A2A-5793-C974-2ECE-1A00FD5270D3">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:12:42 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD" id="793BB4FA-81A2-C3E1-035A-5111BBEE37FB">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:14:19 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE" id="F1060E6E-5F9D-BF0C-D1FC-2849AF3FDE3C">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:14:45 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="program" id="16F95D6D-1C53-1CF2-8B29-2442E97DB28B">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-13 23:45:09 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="program_date" id="0269BEFE-C8E0-DE2C-61AB-F151E6E65923">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-13 23:45:27 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF3D729C-E85B-57A5-B675-64FDCFF8E3A0" name="USERS PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-04 18:07:34 UTC</createdTime>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="10B667C9-8BA5-7956-800D-4EEDDC425E56" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9ACE9DA3-1A94-4972-B902-40838E8A759C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

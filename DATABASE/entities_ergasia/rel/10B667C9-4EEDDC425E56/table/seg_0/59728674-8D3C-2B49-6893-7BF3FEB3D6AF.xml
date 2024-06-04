@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59728674-8D3C-2B49-6893-7BF3FEB3D6AF" name="RESERVATIONS">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>62660226-9596-C653-C8FA-5D6825A1CF3C</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESERVATIONSID" id="0D902DA6-8483-2128-62F2-2683A4F0D36D">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>44967086-A53B-07AC-3D56-C1914BC072B5</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="409D180A-2192-F45D-02FA-50F6FB33C493">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>5DA9B819-87FF-9C96-3E64-417E74DC8DC4</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAMID" id="C57A878C-1C2E-0C72-9800-16543634E17B">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>3902FE11-7293-9FA1-B1FB-2D0889BFBAFB</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAINERID" id="441C6B14-98E3-B158-D40B-F45E8718490B">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>9AD2CFE9-A7E5-57B3-7DB0-A1952B6882D3</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_and_Time_of_Reservation" id="50DB9207-EDEA-B6A2-AE7C-97E4B1B0815E">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>B45F2D81-2F00-5D37-299E-A24EF76ED368</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVATION_STATUS" id="48CE877B-3D54-675C-D613-F84F15882CD6">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>89A7894C-84F7-F076-5E4A-2974B6A0921E</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERS_USERID" id="596E8F15-F2AE-BED0-35FF-63CBAB08A984">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>3EFAEA7A-353D-71EA-E126-9CE55291BFFE</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDE4972A-FC00-4951-D7DB-D6A78BEB9B52" referredColumn="D536AE81-6275-54B6-F428-8B0678975C2D"/>
+</associations>
+</Column>
+<Column name="GYM_PROGRAMS_PROGRAMID" id="E125F04D-9D68-D907-411A-47C2AF35E583">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>B9546182-D728-360C-54A2-CEE64FC3A206</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E02C1B74-375E-2F68-4684-A1A367ECE9FA" referredColumn="81CB4FC0-88DF-174F-1E7A-1C570E956F4E"/>
+</associations>
+</Column>
+<Column name="TRAINERS_TRAINERID" id="85E698C3-2F2A-F39B-86F2-217787297645">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>4322B2EE-401E-74ED-7A99-4341E357CBA9</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8D3AE2F-D719-D879-330C-F3FD3809B5FD" referredColumn="6CAF1D22-C90B-8A9E-1EA7-3903C8D6C221"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81FDDCEC-B567-0DB6-7E52-8EA7748D987D" name="RESERVATIONS_PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>724D06F1-AB76-1A36-FA32-86F5A588942A</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D902DA6-8483-2128-62F2-2683A4F0D36D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A40A20B4-5EB9-5F87-3D32-594EC5432941" name="RESERVATIONS_USERS_FK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>342E12FE-799B-88EE-C115-0C8E7F4A8F9D</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596E8F15-F2AE-BED0-35FF-63CBAB08A984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEDEEF7F-097A-0015-51A3-18D5DD9E8A0F" name="RESERVATIONS_GYM_PROGRAMS_FK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>FCD2A870-A249-F45C-733D-109B2E51D190</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E125F04D-9D68-D907-411A-47C2AF35E583"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0447A970-363A-6D4F-0C03-12B25BDDB4E1" name="RESERVATIONS_TRAINERS_FK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>E5FAB9F9-8963-8C60-83E5-FC8CB716F905</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85E698C3-2F2A-F39B-86F2-217787297645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

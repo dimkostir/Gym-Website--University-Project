@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADFE7BEC-AF3C-2303-1303-A6417666F569" name="GYM_PROGRAMS">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>FBB0BDF3-DF6F-4854-AC57-4EC800ED6C9C</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROGRAMID" id="81CB4FC0-88DF-174F-1E7A-1C570E956F4E">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>BE4AA81A-6D2F-3EDD-B145-3F0F3E490E79</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_NAME" id="4DEBC563-8616-0E29-E419-D7DF37369B24">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>4550F4B4-9CCF-F6C9-2A6B-62257540D3E2</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_DESCRIPTION" id="26A17823-F5E9-2BBE-BC30-E8BA202DF061">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>22F21456-5794-5A58-6EE0-DA3531623BE2</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_CAPACITY" id="6AEDCF17-0EC4-0863-EC58-6CA320CF0EF3">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>CF9D6533-6E77-35F5-9C8A-BA545962537E</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36BE404A-8A35-E947-6EF1-18946F29D3B1" name="GYM_PROGRAMS_PK">
+<createdBy>dimko</createdBy>
+<createdTime>2024-01-16 18:33:09 UTC</createdTime>
+<generatorID>F77C1108-B7F1-D8C4-C2AA-1928D6655074</generatorID>
+<ownerDesignName>entities_ergasia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81CB4FC0-88DF-174F-1E7A-1C570E956F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
